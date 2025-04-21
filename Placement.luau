@@ -2,6 +2,8 @@
 
 --NOTHING here is complex, it's actually very old code that is ass!!!
 
+--You expect me to post the most modular code on the planet just for a role? this is basic enough
+
 --// Services \\--
 local UserInputService = game:GetService("UserInputService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
