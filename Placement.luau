@@ -1,3 +1,7 @@
+--Is comments hard to read? THIS IS VERY SELF EXPLANATORY AND EVEN A COCKROACH COULD UNDERSTAND!
+
+--NOTHING here is complex, it's actually very old code that is ass!!!
+
 --// Services \\--
 local UserInputService = game:GetService("UserInputService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -88,6 +92,7 @@ function Placement:enter()
 	end))
 end
 
+-- THIS GETS A MODULE
 function Placement:getModule()
 	local object = self:getObject()
 	if object then
@@ -96,12 +101,14 @@ function Placement:getModule()
 	return nil
 end
 
+--THIS STOPS INTERACTIONS -- CLUES IN THE NAME!
 function Placement:stopAllInteractions()
 	for _, module in pairs(self.modules) do
 		module:interact(Enum.UserInputState.End)
 	end
 end
 
+--THIS INTERACTS!
 function Placement:interact(action)
 	local object = self:getObject()
 	if object then
@@ -129,7 +136,7 @@ function Placement:getFloors(playerStudio)
 	return objects
 end
 
---{{This is NOT the best}}
+--{{This is NOT the best}} -- THIS BOXES THE OBJECT! CRAZY IK!
 function Placement:boxObject(player, object)
 	
 	local playerStudio = Studios.get(player)
