@@ -84,7 +84,7 @@ function ClickerController:Autoclicker()
 		return self._trove:Clean()
 	end
 	
-	--{{Autoclicker will attempt to click every .5 seconds}}
+	--{{Autoclicker will attempt to click every .05 seconds}}
 	self._timer = Timer.new(.05)
 
 	self._timer.Tick:Connect(function()
