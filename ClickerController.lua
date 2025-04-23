@@ -68,7 +68,7 @@ function ClickerController:Click(IsMouseClick: boolean)
 	end)
 end
 
---{{}}
+--{{Main Autoclicker functionality}}
 function ClickerController:Autoclicker()
 	--{{Toggle autoclicker functionality}}
 	self.AutoclickerEnabled = not self.AutoclickerEnabled
